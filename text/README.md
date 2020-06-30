@@ -1,1 +1,0 @@
-This folder stores the text and RMD files for both the first and second rounds of our NBER Working Paper ["Accounting for Global COVID-19 Diffusion Patterns, January-April 2020"](https://www.nber.org/papers/w27185). Future updates to the Working Paper will be uploaded to this folder.
