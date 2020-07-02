@@ -10,7 +10,7 @@ The data folder contains all the raw, temporary, and final data files used for a
 4. [Government_Responses.csv](https://www.bsg.ox.ac.uk/research/research-projects/coronavirus-government-response-tracker) contains policy data pulled from Oxford. A more detailed README file is available in the relevant folder.
 5. [ICD_Deaths_Final.csv](https://www.who.int/classifications/icd/icdonlineversions/en/) pulls information on prior deaths from diseases (endocrine, high blood pressure, and respiratory) aggregated across 2015-2018.
 6. [UN_Population_Data](https://population.un.org/wpp/Download/Standard/Population/) contains the country population data used to construct mortality rates.
-7. [applemobilitytrends-2020-04-27.csv](https://www.apple.com/covid19/mobility) details mobility data provided by Apple, which captures changes in walking, driving, and transit levels across nations.
+7. [applemobilitytrends-2020-06-13.csv](https://www.apple.com/covid19/mobility) details mobility data provided by Apple, which captures changes in walking, driving, and transit levels across nations.
 8. [arrivals.csv](https://data.worldbank.org/indicator/ST.INT.ARVL) controls for international tourist arrivals in the l.y.a. (2018).
 9. [cellular.csv](https://data.worldbank.org/indicator/IT.CEL.SETS.P2?start=1960) controls for the number of cellular subscriptions by nation.
 10. The countryContinent.csv is not used in our analysis, but may be used to generate subplots in the visualizations (i.e. by continent or sub-region, rather than by nation).
@@ -31,7 +31,7 @@ The data folder contains all the raw, temporary, and final data files used for a
 
 **Final Data**
 
-1. Oxford_V1 is the preliminary dataset (pdataframe) used for our analysis. It includes the following covariates, which are also described and labelled in the Markdown file (I only describe the most relevant variables below; please the WP or Markdown for a complete breakdown):
+1. Oxford_V1 is the primary dataset used for our analysis. It includes the following covariates, which are also described and labelled in the Markdown file (I only describe the most relevant variables below; please the WP or Markdown for a complete breakdown):
 
     A. Total_Cases_Country --> Cumulative COVID-19 cases recorded for each country, per day (*JHU CSSE*).
     
