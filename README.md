@@ -18,7 +18,7 @@ The "data" folder includes all of the initial and manipulated data used in the a
 
 In addition to the data folder, the repository also hosts the "csse_covid_19_time_series", "government_data", and "spreads_data" folders. The data from these folders is also uploaded to the central data folder, but have been included separately for ease of access. These represent our primary raw data files. The first file contains the COVID data pulled from John Hopkins CSSE. The second file contains the government data pulled from the Oxford Government Response Tracker. The last folder contains various raw datafiles used for our projection analysis of Eurozone spreads.
 
-The "output_png" folder includes all of our static figures. All interative HTML figures can be generated using the Markdown file, and viewed in the Knit documents.
+The "output_png" folder includes all of our static figures. All interative HTML figures can be generated using the Markdown file (or for Figures 1-3 through the Python script), and viewed in the Knit documents.
 
 The "reg_output" folder includes all of the tables from the regression analysis, which have been clearly labelled for ease of access. You will be able to find where the tables are generated in the markdown file by using the search function.
 
