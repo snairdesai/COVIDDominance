@@ -10,7 +10,7 @@ The master branch hosts the R Markdown and Knitr documents, as well as folders w
 
 # DESCRIPTION OF THE FILES
 
-The relevant R Markdown file is "COVID-Dominance.rmd" which is fully reproducible in RStudio or RCloud. Accompanying the markdown is a knit file of the output ("COVID-Dominance.html"). The Python file "EZcovid.ipynb" provides code to reproduce Figures 1-3 in the working paper.
+The relevant R Markdown file is "COVID-Dominance.rmd" which is fully reproducible in RStudio or RCloud. Accompanying the markdown is a knit file of the output ("COVID-Dominance.html"). The Python file "EZcovid.ipynb" reproduces Figures 1-3 in the working paper.
 
 # DESCRIPTION OF THE FOLDERS
 
