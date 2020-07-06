@@ -4,7 +4,7 @@ The data folder contains all the raw, temporary, and final data files used for a
 
 **Raw Data**
 
-
+1. Various raw datafiles on [Eurozone CDS spread data](https://github.com/snairdesai/COVID_Dominance/tree/master/spreads_data).
 2. [Country_Coordinates.csv](https://developers.google.com/public-data/docs/canonical/countries_csv) contains centroid coordinates for each nation in the sample.
 3. [GNI.csv](https://data.worldbank.org/indicator/NY.GNP.PCAP.CD?view=chart) controls for GNI per capita (calculated using the Atlas Method).
 4. [Government_Responses.csv](https://www.bsg.ox.ac.uk/research/research-projects/coronavirus-government-response-tracker) contains policy data pulled from Oxford. A more detailed README file is available in the relevant folder.
@@ -88,4 +88,7 @@ The data folder contains all the raw, temporary, and final data files used for a
     S. Prior deaths from high blood pressure, respiratory, and endocrine diseases over the period from 2015-2018, pulled from 
        the World Health Organization's International Classification of Diseases (endocrine_deaths; blood_pressure_deaths;     
        respiratory_deaths).
+       
+    T.  A number of columns on fiscal and monetary policy announcements. These were collected for individual countries, for the European Central Bank, for the      
+        European Union as a whole, and for the Federal Reserve. These columns capture whether or not an action or proposal was made by a given nation/institution on         a specific date in the sample, but do not control for the size or number of policies on any given day. A row is coded as "1" if the date corresponded               with the announcement of at least one key policy. With the exception of the Federal Reserve (whose major announcements related to reductions in the interest         rate along with fiscal spending), we restricted our analysis of key fiscal policies to those which provided “millions” or “billions” of local currency units         in spending. The extended list of sources used to aggregate this data can be found in the Working Paper.
       
