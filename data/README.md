@@ -98,11 +98,14 @@ The data folder contains all the raw, temporary, and final data files used for a
      
      While there are a number of different datasets which attempt to capture the policy announcements and actions of various nations, none is fully comprehensive.      As such, the policy announcements used in the Oxford V1 dataset were hard-coded outside of R, by aggregating information from a number of different datasets        (listed below). Although we collected information on monetary, macroprudential, and loan policies, we focus on fiscal policy announcements (with the notable        exception of the Federal Reserve, for which we capture monetary policy announcements). The methodology is as follows: 
      
-        1. We capture these policies across individual countries, the European Union as a whole, the European Central Bank, and the Federal Reserve. Policy                    announcements were coded as 1, and actions were coded as 2. On days with neither an announcement nor an action, we input 0.
-        2. These columns captured whether or not an action or proposal was made by a given nation/institution on a specific date in the sample. Thus, we did not              control for the size or number of policies on any given day, and only if the date corresponded with the announcement of at least one key policy. 
-        3. With the exception of the Federal Reserve (whose major announcements related to percent reductions in the interest rate along with spending), we                    restricted our analysis of key fiscal policies to those which provided “millions” or “billions” of local currency units in spending, based on the                  descriptions provided in the given sources.
-        4. A sourced version of the dataset is available (Oxford_V1_Sourced), which color codes the announcements and actions by the dataset we pulled them from.
-           The color legend is described below along with the sources of the datasets.
+     1. We capture these policies across individual countries, the European Union as a whole, the European Central Bank, and the Federal Reserve. Policy                   announcements were coded as 1, and actions were coded as 2. On days with neither an announcement nor an action, we input 0.
+     
+     2. These columns captured whether or not an action or proposal was made by a given nation/institution on a specific date in the sample. Thus, we did not               control for the size or number of policies on any given day, and only if the date corresponded with the announcement of at least one key policy. 
+     
+     3. With the exception of the Federal Reserve (whose major announcements related to percent reductions in the interest rate along with spending), we                   restricted our analysis of key fiscal policies to those which provided “millions” or “billions” of local currency units in spending, based on the                   descriptions provided in the given sources.
+     
+     4. A sourced version of the dataset is available (Oxford_V1_Sourced), which color codes the announcements and actions by the dataset we pulled them from.
+        The color legend is described below along with the sources of the datasets.
            
   *Sources for Policy Announcements*
   
