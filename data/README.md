@@ -107,10 +107,15 @@ The data folder contains all the raw, temporary, and final data files used for a
   *Sources for Policy Announcements*
   
   A. [Yale COVID-19 Financial Response Tracker](https://som.yale.edu/node/222278) - Colored Red in the Sourced Dataset
+  
   B. [Harvard Global Policy Tracker](https://www.hbs.edu/covid-19-business-impact/Insights/Economic-and-Financial-Impacts/Global-Policy-Tracker) - Colored Blue in      Sourced Dataset
+  
   C. [Bruegel COVID-19 National Dataset](https://www.bruegel.org/publications/datasets/covid-national-dataset/) - Colored Yellow in Sourced Dataset
+  
   D. [IMF Policy Responses to COVID](https://www.imf.org/en/Topics/imf-and-covid19/Policy-Responses-to-COVID-19) - Colored Green in Sourced Dataset
+  
   E. [OECD COVID-19 Action Map](https://oecd.github.io/OECD-covid-action-map/) - Colored Purple in Sourced Dataset
+  
   F. Cells colored Orange were pulled from local news sources - [EY Luxembourg](https://www.ey.com/en_gl/tax-alerts/luxembourg-announces-economic-stabilization-        and-stimulus-package), [Brussels](https://1819.brussels/blog/covid-19-et-les-mesures-pour-soutenir-leconomie-bruxelloise-quoi-de-neuf) and [Deloitte Cyprus]        (https://www2.deloitte.com/cy/en/pages/about-deloitte/articles/cyprus-governmental-measures-to-tackiling-covid19.html).
   
   
