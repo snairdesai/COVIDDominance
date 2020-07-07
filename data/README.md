@@ -94,4 +94,23 @@ The data folder contains all the raw, temporary, and final data files used for a
         
         
     **Note on Policy Announcement Generation**
-      
+     
+     
+     While there are a number of different datasets which attempt to capture the policy announcements and actions of various nations, none is fully comprehensive.      As such, the policy announcements used in the Oxford V1 dataset were hard-coded outside of R, by aggregating information from a number of different datasets        (listed below). Although we collected information on monetary, macroprudential, and loan policies, we focus on fiscal policy announcements (with the notable        exception of the Federal Reserve, for which we capture monetary policy announcements). The methodology is as follows: 
+     
+        1. We capture these policies across individual countries, the European Union as a whole, the European Central Bank, and the Federal Reserve. Policy                    announcements were coded as 1, and actions were coded as 2. On days with neither an announcement nor an action, we input 0.
+        2. These columns captured whether or not an action or proposal was made by a given nation/institution on a specific date in the sample. Thus, we did not              control for the size or number of policies on any given day, and only if the date corresponded with the announcement of at least one key policy. 
+        3. With the exception of the Federal Reserve (whose major announcements related to percent reductions in the interest rate along with spending), we                    restricted our analysis of key fiscal policies to those which provided “millions” or “billions” of local currency units in spending, based on the                  descriptions provided in the given sources.
+        4. A sourced version of the dataset is available (Oxford_V1_Sourced), which color codes the announcements and actions by the dataset we pulled them from.
+           The color legend is described below along with the sources of the datasets.
+           
+  *Sources for Policy Announcements*
+  
+  A. [Yale COVID-19 Financial Response Tracker](https://som.yale.edu/node/222278) - Colored Red in the Sourced Dataset
+  B. [Harvard Global Policy Tracker](https://www.hbs.edu/covid-19-business-impact/Insights/Economic-and-Financial-Impacts/Global-Policy-Tracker) - Colored Blue in      Sourced Dataset
+  C. [Bruegel COVID-19 National Dataset](https://www.bruegel.org/publications/datasets/covid-national-dataset/) - Colored Yellow in Sourced Dataset
+  D. [IMF Policy Responses to COVID](https://www.imf.org/en/Topics/imf-and-covid19/Policy-Responses-to-COVID-19) - Colored Green in Sourced Dataset
+  E. [OECD COVID-19 Action Map](https://oecd.github.io/OECD-covid-action-map/) - Colored Purple in Sourced Dataset
+  F. Cells colored Orange were pulled from local news sources - [EY Luxembourg](https://www.ey.com/en_gl/tax-alerts/luxembourg-announces-economic-stabilization-        and-stimulus-package), [Brussels](https://1819.brussels/blog/covid-19-et-les-mesures-pour-soutenir-leconomie-bruxelloise-quoi-de-neuf) and [Deloitte Cyprus]        (https://www2.deloitte.com/cy/en/pages/about-deloitte/articles/cyprus-governmental-measures-to-tackiling-covid19.html).
+  
+  
