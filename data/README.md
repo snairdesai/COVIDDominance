@@ -91,4 +91,7 @@ The data folder contains all the raw, temporary, and final data files used for a
        
     T.  A number of columns on fiscal and monetary policy announcements. These were collected for individual countries, for the European Central Bank, for the      
         European Union as a whole, and for the Federal Reserve. These columns capture whether or not an action or proposal was made by a given nation/institution on         a specific date in the sample, but do not control for the size or number of policies on any given day. A row is coded as "1" if the date corresponded               with the announcement of at least one key policy. With the exception of the Federal Reserve (whose major announcements related to reductions in the interest         rate along with fiscal spending), we restricted our analysis of key fiscal policies to those which provided “millions” or “billions” of local currency units         in spending. The extended list of sources used to aggregate this data can be found in the Working Paper.
+        
+        
+    **Note on Policy Announcement Generation**
       
