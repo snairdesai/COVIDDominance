@@ -116,6 +116,6 @@ The data folder contains all the raw, temporary, and final data files used for a
   
   E. [OECD COVID-19 Action Map](https://oecd.github.io/OECD-covid-action-map/) - Colored Purple in Sourced Dataset
   
-  F. Cells colored Orange were pulled from local news sources - [EY Luxembourg](https://www.ey.com/en_gl/tax-alerts/luxembourg-announces-economic-stabilization-        and-stimulus-package), [Brussels](https://1819.brussels/blog/covid-19-et-les-mesures-pour-soutenir-leconomie-bruxelloise-quoi-de-neuf) and [Deloitte Cyprus](https://www2.deloitte.com/cy/en/pages/about-deloitte/articles/cyprus-governmental-measures-to-tackiling-covid19.html).
+  F. Cells colored Orange were pulled from local news sources - [EY Luxembourg](https://www.ey.com/en_gl/tax-alerts/luxembourg-announces-economic-stabilization-and-stimulus-package), [Brussels](https://1819.brussels/blog/covid-19-et-les-mesures-pour-soutenir-leconomie-bruxelloise-quoi-de-neuf) and [Deloitte Cyprus](https://www2.deloitte.com/cy/en/pages/about-deloitte/articles/cyprus-governmental-measures-to-tackiling-covid19.html).
   
   
